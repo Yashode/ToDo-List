@@ -1,0 +1,82 @@
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-image: url("Desktop - 1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.todoList{
+	border:solid;
+	border-color: #006699;
+	background-color:#9999ff;
+	width: 400px;
+	min-height: 600px;
+	position: relative;
+	top: 100px;
+	left: 50px;
+	border-radius: 10px;
+}
+
+.input{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top: 45px;
+	left: 117.6px;
+}
+
+.ul{
+	list-style-type: none;
+	position: relative;
+	top: 150px;
+	left: 20px;
+
+
+}
+
+.li{
+	line-height: 40px;
+	border-radius: 10px;
+	height: 45px; width: 300px;
+	background-color: #ddeef0;
+	border: 2px solid #450101;
+	overflow: auto;
+}
+
+.ipt{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	position: relative;
+	top: 5px;
+	height: 35px;
+	width: 170px;
+	border-radius: 10px;
+	border: 2px solid #450101;
+}
+
+.btn{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color:#cccaca ;
+	position: relative;
+	top: 10px;
+	left: 50px;
+	height: 35px;
+	width: 70px;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid #450101;
+}
+
+.delbtn{
+	background-image: url("del.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 20px;
+	float: right;	
+	border-radius: 10px;
+	position: relative;
+	top: 1px;
+}
