@@ -1,20 +1,28 @@
 body{
 	font-family: 'Noto Sans JP', sans-serif;
-	background-image: url("Desktop - 1.png");
+/*	background-image: url("bg.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	background-color: #2A3950;
+}
+
+.calendar{
+	height: 130px;
+	width: 130px;
+	float: right;
 }
 
 .todoList{
+	opacity: 0.8;
 	border:solid;
 	border-color: #006699;
-	background-color:#9999ff;
+	background-color:#8FF8F8;
 	width: 400px;
 	min-height: 600px;
 	position: relative;
 	top: 100px;
-	left: 50px;
+	left: 550px;
 	border-radius: 10px;
 }
 
@@ -29,7 +37,6 @@ body{
 .ul{
 	list-style-type: none;
 	position: relative;
-	top: 150px;
 	left: 20px;
 
 
