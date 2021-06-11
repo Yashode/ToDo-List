@@ -7,15 +7,15 @@ body{
 	background-color: #2A3950;
 }
 
-.calendar{
+/*.calendar{
 	height: 130px;
 	width: 130px;
 	float: right;
-}
+}*/
 
 .todoList{
 /*	overflow: scroll;*/
-	position: absolute;
+	position: relative;
 	width: 360px;
 	height: 480px;
 	top: 145px;
@@ -118,4 +118,60 @@ body{
 	left: 265px;
 	bottom: 10px;
 	
+}
+
+.C-list{
+	position: relative;
+	width: 360px;
+	height: 480px;
+	bottom: 343px;
+	left: 670px;
+	border: 4px solid #78A6C8;
+	border-radius: 4px;
+}
+
+.C-listHead{
+	width: 360px;
+	height: 40px;
+	background: #78A6C8;
+}
+
+.C-headText{
+	position: relative;
+	left: 16px;
+	top: 2px;
+	width: 202px; height: 33px;
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	color: #2A3950;
+
+}
+
+.C-ul{
+	overflow-x: hidden;
+	overflow-y: auto;
+	list-style-type: ;
+	position: relative;
+	left: 20px;
+	height:330px; width: 280px;
+	top: 30px;
+	right: 20px;
+}
+
+.C-li{
+	position: relative;
+	right: 40px;
+	line-height: 40px;
+	margin: 5px;
+	width: 284.7px; height: 45px;
+	background-color: #78A6C8;
+	opacity: 0.2;
+	color: white;
+	font-weight: bold;
+	overflow-x: auto;
+	overflow-y: hidden;
 }
