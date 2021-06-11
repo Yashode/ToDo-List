@@ -14,76 +14,100 @@ body{
 }
 
 .todoList{
-	opacity: 0.8;
-	border:solid;
-	border-color: #006699;
-	background-color:#8FF8F8;
-	width: 400px;
-	min-height: 600px;
-	position: relative;
-	top: 100px;
-	left: 550px;
-	border-radius: 10px;
+/*	overflow: scroll;*/
+	position: absolute;
+	width: 360px;
+	height: 480px;
+	top: 145px;
+	left: 154px;
+	border: 4px solid #E65C4F;
+	border-radius: 4px;
 }
 
+.listHead{
+	width: 360px;
+	height: 40px;
+	background: #E65C4F;
+
+}
+
+.headText{
+	position: relative;
+	left: 16px;
+	top: 2px;
+	width: 202px; height: 33px;
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	color: #2A3950;
+
+}
+
+
 .input{
-	height: 100px;
-	width: 200px;
-	position: absolute;
-	top: 45px;
-	left: 117.6px;
+
+}
+
+.ipt{
+	position: relative;
+	left: 18px;
+	top: 20px;
+	color: white;
+	text: white;
+	font-family: Poppins;
+	text-align: center;
+	width: 229.7px;
+	height: 33px;
+	border: 1px solid #E65C4F;
+	border-radius: 4px;
+	background:#2A3950;
+
+}
+
+.btn{
+	position: relative;
+	top: 20px;
+	left: 28px;
+	color: white;
+	background: #E65C4F;
+	width: 80px;
+	height: 33px;
+	font-family: Poppins;
+	font-weight: bold;
+	text-align: center;
+	border: 4px solid #E65C4F;
+	border-radius: 4px;
 }
 
 .ul{
-	list-style-type: none;
+	list-style-type: ;
 	position: relative;
-	left: 20px;
-
-
+	top: 30px;
+	right: 20px;
 }
 
 .li{
 	line-height: 40px;
-	border-radius: 10px;
-	height: 45px; width: 300px;
-	background-color: #ddeef0;
-	border: 2px solid #450101;
+	padding: 1px;
+	margin: 1px;
+	width: 284.7px; height: 57px;
+	background-color: #E65C4F;
+	opacity: 0.2;
+	color: white;
 	overflow: auto;
 }
 
-.ipt{
-	font-family: 'Noto Sans JP', sans-serif;
-	text-align: center;
-	position: relative;
-	top: 5px;
-	height: 35px;
-	width: 170px;
-	border-radius: 10px;
-	border: 2px solid #450101;
-}
-
-.btn{
-	font-family: 'Noto Sans JP', sans-serif;
-	background-color:#cccaca ;
-	position: relative;
-	top: 10px;
-	left: 50px;
-	height: 35px;
-	width: 70px;
-	text-align: center;
-	border-radius: 10px;
-	border: 2px solid #450101;
-}
-
 .delbtn{
-	background-image: url("del.jpg");
+	background-image: url("cross.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 20px;
-	width: 20px;
+	height: 16px;
+	width: 16px;
 	float: right;	
-	border-radius: 10px;
 	position: relative;
 	top: 1px;
 }
