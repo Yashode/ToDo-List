@@ -7,22 +7,6 @@ body{
 	background-color: #2A3950;
 }
 
-::placeholder { 
-  color: white;
-  font-family: Poppins;
-  opacity: 1;
-}
-
-::-webkit-scrollbar-track {
-  background: black;
-}
-
-/*.calendar{
-	height: 130px;
-	width: 130px;
-	float: right;
-}*/
-
 .todoList{
 /*	overflow: scroll;*/
 	position: relative;
@@ -108,7 +92,7 @@ body{
 	right: 40px;
 	line-height: 40px;
 	margin: 5px;
-	width: 284.7px; height: 50px;
+	width: 290px; height: 50px;
 	background-color: #E65C4F;
 	opacity: 0.2;
 	color: white;
@@ -189,7 +173,7 @@ body{
 	right: 40px;
 	line-height: 40px;
 	margin: 5px;
-	width: 284.7px; height: 50px;
+	width: 290px; height: 50px;
 	background-color: #78A6C8;
 	opacity: 0.2;
 	color: white;
@@ -219,3 +203,42 @@ body{
 	z-index: 1;
 	opacity: 1;
 }
+
+::placeholder { 
+  color: white;
+  font-family: Poppins;
+  opacity: 1;
+}
+
+.ul::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ul::-webkit-scrollbar-thumb {
+  background-color: ghostwhite;
+  border-radius: 2px;
+}
+
+.C-ul::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.C-ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.C-ul::-webkit-scrollbar-thumb {
+  background-color: ghostwhite;
+  border-radius: 2px;
+}
+
+
+/*.calendar{
+	height: 130px;
+	width: 130px;
+	float: right;
+}*/
