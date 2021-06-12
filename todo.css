@@ -13,6 +13,10 @@ body{
   opacity: 1;
 }
 
+::-webkit-scrollbar-track {
+  background: black;
+}
+
 /*.calendar{
 	height: 130px;
 	width: 130px;
@@ -213,4 +217,5 @@ body{
 	color: white;
 	position: absolute;
 	z-index: 1;
+	opacity: 1;
 }

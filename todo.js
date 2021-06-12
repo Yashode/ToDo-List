@@ -2,6 +2,15 @@ var button=document.querySelector(".btn");
 var task=document.querySelector("#task");
 
 function maker(){
+
+	var text=document.createTextNode(task.value);
+	
+	if(text.length===0){
+		window.alert("Please enter your task");
+	}
+
+	if(text.length!==0){
+		console.log(text.length);
 	
 	var ul= document.querySelector(".ul");
 	var div=document.createElement("div");
@@ -9,8 +18,6 @@ function maker(){
 	var li=document.createElement("li");
 	var delbtn=document.createElement("button");
 	var chkbtn =document.createElement("button");
-	var text=document.createTextNode(task.value);
-
 
 	li.className += "li";
 	delbtn.className +="delbtn";
@@ -58,6 +65,8 @@ function maker(){
 
 	})
 }
+}
+
 
 button.addEventListener("click", maker);
 task.addEventListener("keyup", function(e){
