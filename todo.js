@@ -2,21 +2,25 @@ var button=document.querySelector(".btn");
 var task=document.querySelector("#task");
 
 function maker(){
-
+	
 	var ul= document.querySelector(".ul");
 	var div=document.createElement("div");
+	var liText =document.createElement("div");
 	var li=document.createElement("li");
 	var delbtn=document.createElement("button");
 	var chkbtn =document.createElement("button");
 	var text=document.createTextNode(task.value);
 
+
 	li.className += "li";
 	delbtn.className +="delbtn";
 	chkbtn.className +="chkbtn";
+	liText.className +="liText";
 
-	li.appendChild(text);
-	div.appendChild(chkbtn);
+	liText.appendChild(text);
+	li.appendChild(liText);
 	div.appendChild(li);
+	div.appendChild(chkbtn);
 	div.appendChild(delbtn);
 	ul.appendChild(div);
 	
@@ -34,11 +38,12 @@ function maker(){
 		var div=document.createElement("div");
 		var chkDelbtn=document.createElement("button");
 		
-		cLi.className +="C-li";	
+		cLi.className +="C-li";
+		chkDelbtn.className +="CDbtn";
 		
 		cLi.appendChild(text);
+		div.appendChild(cLi);		
 		div.appendChild(chkDelbtn);
-		div.appendChild(cLi);
 		cUl.appendChild(div);
 
 		li.remove();
